@@ -5,6 +5,7 @@
 [![JSONPlaceholder](https://img.shields.io/badge/JSONPlaceholder-0A0A0A?style=for-the-badge&logo=json&logoColor=white)](https://jsonplaceholder.typicode.com/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
 [![DaisyUI](https://img.shields.io/badge/DaisyUI-5A0EF8?style=for-the-badge&logo=daisyui&logoColor=white)](https://daisyui.com/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 
 A full-stack CRUD (Create, Read, Update, Delete) application built with Next.js, styled with TailwindCSS and DaisyUI, and integrated with JSONPlaceholder API. Features real-time data management, form validation, and responsive design.
 
@@ -22,8 +23,8 @@ A full-stack CRUD (Create, Read, Update, Delete) application built with Next.js,
 - **Frontend**: Next.js (App Router), TailwindCSS, DaisyUI
 - **State Management**: React Query
 - **Form Handling**: React Hook Form, Zod
-- **Type Safety**: TypeScript
-- **API**: JSONPlaceholder (REST)
+- **Scripting Language**: JavaScript/TypeScript
+- **API**: JSONPlaceholder
 
 ## Setup and Run Locally
 
@@ -34,8 +35,8 @@ A full-stack CRUD (Create, Read, Update, Delete) application built with Next.js,
 ### Installation
 1. Clone the repository:
   ```
-   git clone https://github.com/your-username/crud-app.git
-   cd crud-app
+   git clone https://github.com/SiddhantChauhan1/Contactwise-CRUD-application.git
+   cd Contactwise-CRUD-application
   ```
 2. Install dependencies:
   ```
@@ -86,3 +87,6 @@ onSuccess: (data) => {
   );
 }
 ```
+
+Developed by
+Siddhant Singh Chauhan
