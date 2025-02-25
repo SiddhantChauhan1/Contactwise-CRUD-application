@@ -40,7 +40,7 @@ A full-stack CRUD (Create, Read, Update, Delete) application built with Next.js,
   ```
 2. Install dependencies:
   ```
-    npm install
+    npm install @tanstack/react-query @tanstack/react-query-devtools daisyui react-hook-form @hookform/resolvers zod
   ```
 3. Start the development server:
 
