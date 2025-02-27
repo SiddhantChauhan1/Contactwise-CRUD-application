@@ -76,7 +76,15 @@ export default function EditModal({ post }: { post: Post }) {
               <h3 className="font-bold text-lg">Edit Post</h3>
               <PostForm
                 initialValues={post}
-                onSubmit={(values) => updateMutation.mutate(values)}
+                onSubmit={(values) => {
+                  const updatedPost: Post = {
+                    id: post.id,
+                    userId: post.userId,
+                    title: values.title,
+                    body: values.body,
+                  };
+                  updateMutation.mutate(updatedPost);
+                }}
                 isLoading={updateMutation.isPending}
               />
               <div className="modal-action">
